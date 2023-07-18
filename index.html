@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>scientific calculator</title>
+</head>
+<body>
+    <div>
+        <div id="container">
+            <div id="display">
+             <input id="output" type="text" name="display">
+            </div>  
+         <div id="space"> 
+            <div id="setup">
+                <input type="button" value="Sin" onclick="ssin()">
+                <input type="button" value="Tan" onclick="ttan()">
+                <!-- <button onclick="display('x2')"><var>x<sup>2</sup></var></button> -->
+                <input type="button" id="acc" value="Ac" onclick="erase()">
+               
+            </div>
+            <div id="setup1">
+                <input type="button" value="log" onclick="disp() ">
+                <input type="button" value="cos" onclick=" cos() ">
+                <input type="button" value="srt" onclick="root()">
+                <input type="button" id="cle" value="Del" onclick="del()">
+            </div>  
+            <div id="setup2">
+                <input type="button" value="1" onclick="display('1') ">
+                <input type="button" value="2" onclick="display('2') ">
+                <input type="button" value="3" onclick="display('3') ">
+                <input type="button" id="inp1" value="+" onclick="display('+') ">
+            </div>
+            <div id="setup3">
+                <input type="button" value="4" onclick="display('4') ">
+                <input type="button" value="5" onclick="display('5') ">
+                <input type="button" value="6" onclick="display('6') ">
+                <input type="button" id="inp2" value="/" onclick="display('/') ">
+            </div>
+            <div id="setup4">
+                
+                <input type="button" value="7" onclick="display('7') ">
+                <input type="button" value="8" onclick="display('8') ">
+                <input type="button" value="9" onclick="display('9') ">
+                <input type="button" id="inp3" value="-" onclick="display('-') ">
+            </div>
+            <div id="setup6">
+                <input type="button" value="0" onclick="display('0') ">
+                <input type="button" value="00" onclick="display('00') ">
+                <input type="button" value="." onclick="display('.') ">
+                <input type="button" id="inp4" value="=" onclick="final()">
+            </div>
+         </div>
+        </div>    
+
+
+
+
+
+
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

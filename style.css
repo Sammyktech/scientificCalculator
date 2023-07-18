@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins sans-serif;
+    margin: 0;
+}
+#container{
+    margin-top: 25px;
+    border: 1px solid black;
+    width: 200px;
+    height: 350px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 2px 10px 1px rgba(71, 71, 71, 0.52);
+    border: none;
+    /* background: linear-gradient(to right,green,blue); */
+}
+#display input{
+    border: 1px solid black;
+    height: 50px;
+    width: 190px;
+    margin-top: 10px;
+    background-color: grey;
+    border-bottom-width: thick;
+    border-top-width: thick;
+    border-left-width: thick;
+   border-radius: 15px;
+}
+#setup > #acc{
+     width: 75px;
+     background-color: purple;
+     color: lime;
+     font-weight: bold;
+}
+#space input{ 
+    margin: 5px;
+    padding: 5px;
+    width: 30px;
+    border-top-width: thick;
+    border-bottom-width: thick;
+}
+/* #setup input{
+   margin-left: 95px; 
+   width: 75px;
+   color: darkgreen;
+   background-color: brown;
+   border: none;
+   font-weight: bold;
+} */
+#space input:focus{
+    padding: 6px;
+    background-color: grey;
+    color: white;
+
+}
+
+#inp1{
+    color: orangered;
+    font-weight: bold;
+}
+
+#inp2{
+    color: orangered;
+    font-weight: bold;
+}
+#inp3{
+    color: orangered;
+    font-weight: bold;
+}
+#inp4{
+    color: orangered;
+    font-weight: bold;
+}
+
+#inp4{
+    background-color: darkgoldenrod;
+    color: white;
+    font-weight: bold;
+}
+
+
