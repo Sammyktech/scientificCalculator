@@ -28,7 +28,7 @@
    border-radius: 15px;
 }
 #setup > #acc{
-     width: 75px;
+     width: 30px;
      background-color: purple;
      color: lime;
      font-weight: bold;
@@ -40,14 +40,7 @@
     border-top-width: thick;
     border-bottom-width: thick;
 }
-/* #setup input{
-   margin-left: 95px; 
-   width: 75px;
-   color: darkgreen;
-   background-color: brown;
-   border: none;
-   font-weight: bold;
-} */
+
 #space input:focus{
     padding: 6px;
     background-color: grey;
@@ -74,7 +67,7 @@
 }
 
 #inp4{
-    background-color: darkgoldenrod;
+    background-color: purple;
     color: white;
     font-weight: bold;
 }
